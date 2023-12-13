@@ -1,0 +1,51 @@
+# Virtual environment
+venv/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database
+#.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# Dependency management
+poetry.lock
+pyproject.toml
+__pypackages__/
+
+# Compiled files
+*.pyc
+
+# Local development settings
+.env.local
+.env.dev
+.env.test
+
+# Logs
+logs/
+
+# Docker
+docker-compose.yml
+Dockerfile
+
+# Editor-specific files
+*.swp
+*~
+
+# FastAPI generated files
+__pycache__/
+alembic/
+migrations/
+
+# Mac generated file
+
+*.DS_Store
